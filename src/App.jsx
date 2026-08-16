@@ -3,7 +3,7 @@ import Home from "./pages/Home.jsx";
 import Shop from "./pages/Shop.jsx";
 import './App.css'
 import NotFound from "./pages/NotFound";
-import Admin from "./pages/Admin";
+import Admin from "./pages/Adminjsx";
 function App() {
   return (
     <BrowserRouter>
