@@ -3,8 +3,6 @@ import { useAuth } from "../context/AuthContext";
 import { useCart } from "../context/CartContext";
 import AuthModal from "../components/AuthModal";
 import CartDrawer from "../components/CartDrawer";
-import { link } from "react-router-dom"
-
 
 function Shop() {
   const [authOpen, setAuthOpen] = useState(false);
@@ -35,8 +33,8 @@ function Shop() {
             <p className="text-xs tracking-[0.2em] text-[#8c6b63]">HANDMADE • CUSTOM • CROCHET</p>
           </div>
           <div className="hidden items-center gap-8 md:flex">
-            <link to="/" className="font-medium hover:text-[#a34f67]">Home</link>
-            <link to="/shop" className="font-medium hover:text-[#a34f67]">Creations</link>
+            <a href="/" className="font-medium hover:text-[#a34f67]">Home</a>
+            <a href="/shop" className="font-medium hover:text-[#a34f67]">Creations</a>
             <a href="/#about" className="font-medium hover:text-[#a34f67]">About</a>
             <a href="/#contact" className="font-medium hover:text-[#a34f67]">Contact</a>
           </div>
