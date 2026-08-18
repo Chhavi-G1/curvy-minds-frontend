@@ -171,7 +171,7 @@ function Home() {
           <p className="mt-5 text-[#725b55]">Have a custom idea? Contact Curvy Minds and tell us what you're looking for.</p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <a href="mailto:youremail@example.com" className="rounded-full bg-[#6d3545] px-7 py-3 font-semibold text-white">Contact Us</a>
-            <a href="https://instagram.com/yourhandle" target="_blank" rel="noopener noreferrer" className="rounded-full border border-[#c99aaa] px-7 py-3 font-semibold text-[#6d3545]">Instagram</a>
+            <a href="https://www.instagram.com/curvy_minds" target="_blank" rel="noopener noreferrer" className="rounded-full border border-[#c99aaa] px-7 py-3 font-semibold text-[#6d3545]">Instagram</a>
           </div>
         </div>
       </section>
